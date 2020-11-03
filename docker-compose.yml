@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+ arthurapp1
+ image: arthurferreira2/jenkins-test-2:v01
+ container_name: arthurC
+ port :
+ - "4499:5000"
+ 
